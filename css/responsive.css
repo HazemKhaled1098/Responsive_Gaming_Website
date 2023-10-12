@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/gaming.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    padding: 35px 110px;
+}
+.container .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .head .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .head ul li {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    transition: 0.2s;
+    transition: 0.3 linear;
+}
+.container .head ul li:hover {
+    border-bottom: 3px solid whitesmoke;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.container .content .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.container .content .icons a {
+    margin: 20px 0;
+}
+.container .content .icons .instagram:hover , .youtube:hover , .world:hover {
+    color: rgb(17, 241, 223);
+    font-weight: bolder;
+}
+.container .content .box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 60px;
+}
+.container .content .box h4 {
+    margin-top: -50px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+    font-size: 13px;
+}
+.container .content .box .name {
+    margin: 10px 0 20px;
+    font-size: 30px;
+    font-weight: 1300;
+}
+.container .content .box .pargraph {
+    font-size: 13px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.container .content .box .links {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.container .content .box .links a .compare {
+    width: 60px;
+}
+.container .content .box .links .compare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    height: 30px;
+    border: 1px solid rgb(0, 2, 99);
+    border-radius: 10px;
+    width: 135px;
+}
+.container .content .box .links .watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 230px;
+}
+.container .content .box .links .watch::before {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-right: 10px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid white;
+    border-right: 0 solid transparent;
+}
+.container .content .img img {
+    width: 300px;
+    height: 300px;
+}
